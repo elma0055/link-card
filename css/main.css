@@ -21,6 +21,9 @@ body {
   margin: 1rem;
 }
 
+.link-card:hover {
+  background-color: #dcd4cd;
+}
 h1 {
   font-family: "Dosis", sans-serif;
   color: #512200;
@@ -43,14 +46,6 @@ dl {
   margin: 1rem 0;
 }
 
-dt {
-  display: inline-block;
-}
-dd {
-  display: inline-block;
-}
-
-
 a {
   background-color: #9a816d;
   padding: .4em .75em .5em;
@@ -58,6 +53,10 @@ a {
   text-align: center;
   color: #f0eee8;
   text-decoration: none;
+}
+
+a:hover {
+background-color: #512200;
 }
 
 div:first-child {
