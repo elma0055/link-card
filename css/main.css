@@ -2,6 +2,7 @@ html {
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
   background-color: #f0eee8;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -10,7 +11,7 @@ html {
 
 @viewport { width: device-width; scale: 1; }
 
-body {
+.link-card {
   border-style: solid;
   border-width: 3px;
   border-color: #9a816d;
@@ -28,12 +29,12 @@ h1 {
   font-family: "Dosis", sans-serif;
   color: #512200;
   font-size: 1.5rem;
-  line-height: 1.5;
 }
 
 p {
 width: 100%;
 color: #785439;
+font-family: Georgia;
 }
 
 dl {
@@ -44,6 +45,20 @@ dl {
   border-style: solid;
   border-color: #9a816d;
   margin: 1rem 0;
+  align-content: space-between;
+  padding: 1rem 0;
+  color: #785439;
+}
+
+dd {
+  display: inline-block;
+  margin: 0;
+  width: 45%;
+}
+
+dt {
+  display: inline-block;
+  width: 45%;
 }
 
 a {
@@ -59,6 +74,6 @@ a:hover {
 background-color: #512200;
 }
 
-div:first-child {
+div {
   text-align: center;
 }
