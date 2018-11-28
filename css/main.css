@@ -20,6 +20,8 @@ html {
   padding: 1rem;
   font-family: Georgia;
   background-color: #dcd4cd;
+  display: block;
+  text-decoration: none;
 }
 
 .link-card:hover {
