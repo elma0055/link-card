@@ -64,7 +64,7 @@ dt {
   width: 45%;
 }
 
-a {
+.btn {
   background-color: #785439;
   padding: .4em .75em .5em;
   border-radius: 4px;
